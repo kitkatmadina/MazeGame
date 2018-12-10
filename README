@@ -1,0 +1,12 @@
+//The Maze Game was the final project for my CSCE 121 (Introduction to Programming with C++) section Fall 2018. 
+//The students were provided with skeleton files (header files, cpp files and sample maze txt files) and their tasks were to 
+//implement empty functions in order for the game to run. 
+
+//The Maze Game inputs a text file where each letter (S,W,X,E) corresponds to a different type of tile: Starting tile, Wall tile, 
+//Empty tile, and Ending tile respectively. The program determines the position of each Starting tile in the grid and creates a player
+// who's starting position is at that Starting tile. The program takes the user inputs "u" or "up", "d" or "down", "l" or "left", and "r" or
+// "right" to move the players around the maze. A player is allowed to move onto a Starting tile, Empty tile, or Ending tiles. If a 
+//player attempts to move to a Wall tile, the program will display an error and wait for a legal input. When a player reaches an
+// Ending tile, the program will display that the player has won and themn terminate. The program will display the current position of
+// each of the players after every move on the grid, as well as the next player to move's position as coordinates. Everything that is 
+//displayed in the shell is saved into an output text file which can be opened for reading. 
